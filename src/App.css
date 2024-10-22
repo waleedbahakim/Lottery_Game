@@ -1,0 +1,68 @@
+/* Adjust padding between navbar and content */
+body {
+    padding-top: 70px; /* Adds space below fixed navbar */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    border-bottom: 1px solid #dee2e6;
+    position: fixed; /* Makes navbar stick to the top */
+    top: 0;
+    width: 100%; /* Makes it span the entire width */
+    z-index: 1000; /* Keeps navbar on top of other content */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+/* Rest of your styling */
+.container {
+    margin: 50px 200px auto;
+}
+
+.card {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.ticket-display {
+    font-size: 1.5em;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+.alert {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+}
